@@ -1,10 +1,17 @@
 import React from 'react';
 import './App.css';
 import logo from  './images/i-dQS4s7r-L.jpg'
+import Nav from './components/Nav'
+import About from './components/About'
+import Contact from './components/Contact'
+import Portfolio from './components/Portfolio';
+
 
 function App() {
   return (
     <div className="App">
+      <Nav />
+
       <header className="App-header">
         {/* <nav>
           <span>About</span>
@@ -16,19 +23,17 @@ function App() {
         <p>Im a Full Stack Web Developer 
 based in Richmond, Va specializing 
 In front end websites and applications</p>
-        <a>
+        <button>
           Get in touch
-        </a>
+        </button>
         </div>
         <div className="image">
           <img src={logo} />
         </div>
       </header>
-      {/* <main>
-        <h2>Portfolio</h2>
-        <h2>About</h2>
-        <h2>Contact</h2>
-      </main> */}
+     <About />
+     <Portfolio />
+     <Contact />
     </div>
   );
 }
