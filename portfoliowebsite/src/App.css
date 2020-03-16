@@ -35,11 +35,51 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-container {
+  display: flex;
+  padding-left: 20px;
+  position: absolute;
+  color: white;
+  right: 40px;
+}
+
+.about{
+  min-height: 100vh;
+  background-color: #61dafb;
+}
+
+.contact-container{
+  min-height: 100vh;
+  background-color: palevioletred;
+
+}
+
+.resume{
+  padding: 20px;
+  border: solid 1px rgb(135,162,206);
+  border-radius: 15px;
+}
+
+.nav-about{
+  padding: 20px;
+
+}
+.nav-portfolio{
+  padding: 20px;
+
+}
+.nav-contact {
+  padding: 20px;
+
+}
+
+.about-container{
+  width: 600px;
+  margin: auto;
+
+}
+
+.center-contact{
+  width: 40px;
+  margin: auto
 }

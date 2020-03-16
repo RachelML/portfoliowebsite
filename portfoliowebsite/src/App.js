@@ -4,7 +4,10 @@ import logo from  './images/i-dQS4s7r-L.jpg'
 import Nav from './components/Nav'
 import About from './components/About'
 import Contact from './components/Contact'
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio'
+import { Email, Item, A} from 'react-html-email';
+
+
 
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
       <Nav />
 
       <header className="App-header">
+        
         {/* <nav>
           <span>About</span>
           <span>Contact</span>
@@ -23,9 +27,9 @@ function App() {
         <p>Im a Full Stack Web Developer 
 based in Richmond, Va specializing 
 In front end websites and applications</p>
-        <button>
-          Get in touch
-        </button>
+        
+        <A style={{ paddingLeft: 10 }}  href='mailto:rachelricelong@gmail.com'>Get in touch</A>
+
         </div>
         <div className="image">
           <img src={logo} />

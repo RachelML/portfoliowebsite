@@ -7,14 +7,11 @@ export default class Nav extends Component {
 
     render() {
         return (
-            <div>
-                <ul> 
-                    <li>ABOUT</li>
-                    {/* <li>TECHNOLOGIES</li> */}
-                    <li>PORTFOLIO</li>
-                    <li>CONTACT</li>
-                    <li>RESUME</li>
-                </ul>
+            <div className="nav-container">
+                <p className="nav-about">ABOUT</p>
+                <p className="nav-portfolio">PORTFOLIO</p>
+                <p className="nav-contact">CONTACT</p>
+                <p className="resume">RESUME</p>
             </div>
         )
     }
