@@ -12,7 +12,7 @@ import { Email, Item, A} from 'react-html-email';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav />
 
       <header className="App-header">
@@ -28,7 +28,7 @@ function App() {
 based in Richmond, Va specializing 
 In front end websites and applications</p>
         
-        <A style={{ paddingLeft: 10 }}  href='mailto:rachelricelong@gmail.com'>Get in touch</A>
+        <A style={{textDecoration: 'none'}} href='mailto:rachelricelong@gmail.com'>Get in touch</A>
 
         </div>
         <div className="image">
