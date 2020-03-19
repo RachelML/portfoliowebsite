@@ -27,8 +27,10 @@ function App() {
         <p>Im a Full Stack Web Developer 
 based in Richmond, Va specializing 
 In front end websites and applications</p>
+    <a className="get-in-touch" style={{textDecoration: 'none'}} href='mailto:rachelricelong@gmail.com'>Get in touch</a>    
+
         
-        <A style={{textDecoration: 'none'}} href='mailto:rachelricelong@gmail.com'>Get in touch</A>
+        {/* <A style={{textDecoration: 'none'}} href='mailto:rachelricelong@gmail.com'>Get in touch</A> */}
 
         </div>
         <div className="image">

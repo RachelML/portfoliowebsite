@@ -99,4 +99,44 @@ text-align: center
 
 .tech-container{
   display: flex;
+
+}
+
+.portfolio-image{
+  width: 300px;
+  height: 200px;
+  background-color: seagreen;
+}
+
+.portfolio-description{
+  background-color: yellow;
+  width: 400px;
+
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.portfolio-title{
+text-align: center;
+font-size: 30px
+;}
+
+.portfolio-header{
+  text-align: center;
+  font-size: 50px
+}
+
+.portfolio-links{
+text-align: center}
+
+.get-in-touch {
+  color: white;
+  padding: 20px;
+  border: solid 1px rgb(135,162,206);
 }
