@@ -15,14 +15,14 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <div className="contact-container">
+            <div id="contact"  className="contact-container">
                 <div className="center-contact">
                 <p>Contact</p>
                 {/* <FontAwesomeIcon className="add-icon" icon={faEnvelope} /> */}
                 {/* <FontAwesomeIcon className="add-icon" icon={faGitHub} /> */}
 
                 <div className="link-div">
-                <A style={{ paddingLeft: 10 }}  href='mailto:rachelricelong@gmail.com'>Email</A>
+                <A style={{ paddingLeft: 10 }}  href='mailto:rachelricelong@gmail.com'>RachelRiceLong@gmail.com</A>
                 <A style={{ paddingLeft: 10 }}  href='https://www.linkedin.com/in/rachelricelong/'>LinkedIN</A>
                 <A style={{ paddingLeft: 10 }}  href='https://github.com/RachelML'>Github</A>
                 </div>
