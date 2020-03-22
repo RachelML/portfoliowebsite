@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import { Email, Item, A} from 'react-html-email';
 import { Route, Link, Redirect } from 'react-router-dom';
+import GetInTouch from './components/GetInTouch';
 
 
 
@@ -19,23 +20,19 @@ function App() {
 
       <header className="App-header">
         
-        {/* <nav>
-          <span>About</span>
-          <span>Contact</span>
-        </nav> */}
+
         <div className='bio'>
           <p>Hi, my name is<br></br> Rachel Long <br></br>I'm a Full Stack Web Developer 
-based in Richmond, Va specializing 
-In front end websites and applications</p>
-    <a className="get-in-touch" style={{textDecoration: 'none'}} href='mailto:rachelricelong@gmail.com'>Get in touch</a>    
+        based in Richmond, Va specializing 
+            In front end websites and applications</p>
 
         
 
         </div>
-        <div className="image">
-          <img src={logo} />
-        </div>
+        
+      
       </header>
+      <GetInTouch />
      <About />
      <Portfolio />
      <Contact />

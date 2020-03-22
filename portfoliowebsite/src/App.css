@@ -14,38 +14,30 @@
 
 .App-header {
   background-color: white;
-  min-height: 80vh;
+  min-height: 60vh;
   display: flex;
   font-size: calc(10px + 2vmin);
   color:black;
 }
 .bio{
- align-self: center;
- width: 50%;
- display: inline-block;
- padding-left: 15%;
- padding-right: 5%;
+  text-align: center;
+  margin: auto;
+ width: 60%;
  font-size: 30px;
 
  
 } 
- .image {
-  align-self: center;
-
-  width: 50%;
-  display: inline-block;
-  height: 100%;
-}
+ 
 .App-link {
   color: #61dafb;
 }
 .nav-container {
   display: flex;
   padding-right: 20px;
-  justify-content: flex-end;
-  /* background-color: rgb(244, 224, 220); */
+
 }
 .about{
+  display: flex;
   min-height: 100vh;
   background-color: rgb(232, 61, 47  );
   margin-top: -20px;
@@ -54,27 +46,36 @@
 
 .contact-container{
   min-height: 50vh;
-  background-color: palevioletred;
+  background-color: white;
   text-align: center;
 
 
 }
 
 .resume{
-  padding: 20px;
-  border: solid 1px rgb(135,162,206);
+  color: white;
+  padding: 20px 40px;
+  border: solid 1px white;
+  margin-left: 10px;
+  margin-top: 70px;
 }
 
 .nav-about{
-  padding: 20px;
+  padding: 10px;
+  font-size: 12px
+
 
 }
 .nav-portfolio{
-  padding: 20px;
+  padding: 10px;
+  font-size: 12px
+
 
 }
 .nav-contact {
-  padding: 20px;
+  padding: 10px;
+  font-size: 12px
+
 
 }
 
@@ -96,11 +97,6 @@ text-align: center
   padding-top: 70px;
 }
 
-.in-touch{
-  color: white;
-  border: solid 1px rgb(135,162,206);
-  border-radius: 15px;
-}
 
 .tech-container{
   display: flex;
@@ -108,15 +104,22 @@ text-align: center
 }
 
 .portfolio-image{
+  box-shadow: 0 8px 6px -6px black;
   width: 500px;
+
 }
 .portfolio-mobile-image {
   width: 300px;
-  margin-left: 100px
+  margin-left: 100px;
+  box-shadow: 0 8px 6px -6px black;
+
 }
 
 .portfolio-description{
-  background-color: yellow;
+  background-color: white;
+  margin-left: -50px;
+  box-shadow: 0 8px 6px -6px black;
+  padding: 40px;
   width: 400px;
 
 }
@@ -125,30 +128,82 @@ text-align: center
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding-bottom: 70px ;
 
 }
 
 .portfolio-title{
 text-align: center;
-font-size: 30px
+font-size: 30px;
+padding-bottom: 30px
 ;}
 
 .portfolio-header{
   text-align: center;
-  font-size: 50px
+  font-size: 20px;
+  padding-bottom: 30px;
 }
 
 .portfolio-links{
 text-align: center}
 
-.get-in-touch {
-  color: black;
+.in-touch {
+  color: white;
   padding: 20px;
-  border: solid 1px rgb(135,162,206);
+  border: solid 1px white;
+  margin-right: 10px;
+  margin-top: 70px;
 }
 
+
+
+
 .portfolio-component{
-  background-color: rgb(244, 224, 220);
   padding-top: 30px;
+  padding-bottom: 70px;
+  background-color: rgb(243,245,246);
+}
+
+.title-name {
+  padding: 10px;
+  margin: auto;
+
+}
+
+.nav-linkedin{
+  padding: 10px;
+  font-size:12px
+
+}
+
+.nav-github{
+  padding: 10px;
+  font-size:12px
+
+}
+
+.contact-links{
+  background-color: rgb(232, 61, 47  );
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  width: 280px;
+  height: 280px;
+  margin-top: 200px;
+  margin-right: 100px
+
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.getin{
+  color: white;
 }
