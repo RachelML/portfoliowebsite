@@ -41,7 +41,8 @@
   min-height: 100vh;
   background-color: rgb(232, 61, 47  );
   margin-top: -20px;
-  color: rgb(244, 224, 220)
+  color: rgb(244, 224, 220);
+  padding-bottom: 40px;
 }
 
 .contact-container{
@@ -196,14 +197,38 @@ text-align: center}
 
 }
 
-a:visited{
+a{
   color: black;
 }
 
-a:hover{
-  text-decoration: underline;
+a:visited{
+  color: black;
 }
+a:hover{
+  color:grey;
+}
+
 
 .getin{
   color: white;
+}
+
+.getin:hover{
+  color:black;
+  
+}
+
+.launch {
+  padding-left: 10px
+}
+
+.portfolio-image:hover{
+  opacity: 0.8;
+
+
+}
+
+.portfolio-mobile-image:hover {
+  opacity: 0.8;
+
 }

@@ -12,7 +12,7 @@ export default class About extends Component {
 
                 <p>My affinity for problem solving, communication and detail-oriented
                 work led me pursue software development and my passion for technology, design and people drives me to create meaningful and logical applications.</p>
-                <p>Technologies</p>
+                <p style={{ paddingTop: 50 }}>Technologies</p>
                 <div className="tech-container">
                 <ul>
                     <li>JavaScript (ES6+)</li>

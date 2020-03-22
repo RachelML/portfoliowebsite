@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Email, Item, A} from 'react-html-email';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-// import { faGitHub} from '@fortawesome/free-solid-svg-icons'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@material-ui/icons/GitHub'
+import EmailIcon from '@material-ui/icons/Email'
+
 
 
 
@@ -16,15 +17,16 @@ export default class Contact extends Component {
     render() {
         return (
             <div id="contact"  className="contact-container">
+               
                 <div className="center-contact">
-                <p>Contact</p>
+                <p>CONTACT</p>
                 {/* <FontAwesomeIcon className="add-icon" icon={faEnvelope} /> */}
                 {/* <FontAwesomeIcon className="add-icon" icon={faGitHub} /> */}
 
                 <div className="link-div">
-                <A style={{ paddingLeft: 10 }}  href='mailto:rachelricelong@gmail.com'>RachelRiceLong@gmail.com</A>
-                <A style={{ paddingLeft: 10 }}  href='https://www.linkedin.com/in/rachelricelong/'>LinkedIN</A>
-                <A style={{ paddingLeft: 10 }}  href='https://github.com/RachelML'>Github</A>
+                <a style={{ paddingLeft: 0 }}  href='mailto:rachelricelong@gmail.com'> <EmailIcon /></a>
+                <a style={{ paddingLeft: 60 }}  href='https://www.linkedin.com/in/rachelricelong/'><LinkedInIcon /></a>
+                <a style={{ paddingLeft: 60 }}  href='https://github.com/RachelML'><GitHubIcon /></a>
                 </div>
                 </div>
             </div>
