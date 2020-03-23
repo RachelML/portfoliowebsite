@@ -232,3 +232,70 @@ a:hover{
   opacity: 0.8;
 
 }
+
+@media only screen and (max-width: 1000px) {
+
+  *{
+    /* background-color: lightpink; */
+  }
+
+  .portfolio-title{
+    margin-top: 10px
+    ;}
+
+  .portfolio-container {
+    display: block;
+    text-align: center;  }
+
+    .portfolio-description{
+      margin: auto;
+      margin-top: -50px;
+      margin-bottom: 10px;
+       }
+
+   .portfolio-mobile-image {
+     margin: auto
+   }
+}
+
+@media only screen and (max-width: 500px) {
+
+  *{
+    /* background-color: lightskyblue; */
+  }
+
+  .portfolio-image {
+    width: 80%;
+
+  }
+
+  .portfolio-mobile-image {
+    width: 60%;
+  }
+  .portfolio-description{
+    width: 80%;
+  }
+  .about {
+    display: block;
+  }
+  .image{
+    margin: auto;
+    margin-left: 20%;
+    width: 280px;
+    height: 280px;
+  }
+
+  .about-container{
+    width: 350px;
+    margin: auto;
+    padding-top: 150px;
+    font-size: calc(8px + 2vmin);
+  }
+
+  .bio{
+    font-size: 20px;
+  }
+
+  .title-name{
+font-size: 0px;  }
+}
