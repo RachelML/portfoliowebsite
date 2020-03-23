@@ -156,7 +156,14 @@ text-align: center}
   margin-top: 70px;
 }
 
+.in-touch:hover{
+  border: solid 1px black;
 
+}
+
+.getin:hover{
+  color:white
+}
 
 
 .portfolio-component{
@@ -213,10 +220,7 @@ a:hover{
   color: white;
 }
 
-.getin:hover{
-  color:black;
-  
-}
+
 
 .launch {
   padding-left: 10px
@@ -233,10 +237,18 @@ a:hover{
 
 }
 
+.resume:hover{
+  border: solid 1px black;
+}
+
 @media only screen and (max-width: 1000px) {
 
   *{
     /* background-color: lightpink; */
+  }
+
+  .about{
+    padding-left: 10px;
   }
 
   .portfolio-title{
