@@ -12,21 +12,21 @@ export default class Nav extends Component {
     render() {
         return (
             <div>
-            <div className="nav-container">
+                <div className="nav-container">
           
-            <p className="nav-about">  <HashLink  style={{textDecoration: 'none'}} to="/#about">
-            ABOUT
-          </HashLink></p>
-                <p className="nav-portfolio">  <HashLink  style={{textDecoration: 'none'}} to="/#portfolio">
-            PORTFOLIO
-          </HashLink></p>
+                     <p className="nav-about">  <HashLink  style={{textDecoration: 'none'}} to="/#about">
+                     ABOUT
+                    </HashLink></p>
+                     <p className="nav-portfolio">  <HashLink  style={{textDecoration: 'none'}} to="/#portfolio">
+                     PORTFOLIO
+                    </HashLink></p>
               
-          <p className="title-name" >RACHEL LONG</p>
+                     <p className="title-name" >RACHEL LONG</p>
 
-                <p className="nav-linkedin"><a style={{textDecoration: 'none'}}   href='https://www.linkedin.com/in/rachelricelong/'>LINKEDIN</a></p>
-                <p className="nav-github"><a style={{textDecoration: 'none'}}   href='https://github.com/RachelML'>GITHUB</a>
-</p>
-            </div>
+                     <p className="nav-linkedin"><a style={{textDecoration: 'none'}}   href='https://www.linkedin.com/in/rachelricelong/'>LINKEDIN</a></p>
+                     <p className="nav-github"><a style={{textDecoration: 'none'}}   href='https://github.com/RachelML'>GITHUB</a>
+                     </p>
+                </div>
 
             </div>
         )

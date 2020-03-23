@@ -8,11 +8,11 @@ export default class About extends Component {
             <div id="about" className="about">
                 
                 <div className="about-container">
-                <p>Hello! I'm Rachel, a Full-stack developer based in Richmond with a background in healthcare administrative and patient service focused roles.</p>
+                     <p>Hello! I'm Rachel, a Full-stack developer based in Richmond with a background in healthcare administrative and patient service focused roles.</p>
 
-                <p>My affinity for problem solving, communication and detail-oriented
-                work led me pursue software development and my passion for technology, design and people drives me to create meaningful and logical applications.</p>
-                <p style={{ paddingTop: 50 }}>Technologies</p>
+                     <p>My affinity for problem solving, communication and detail-oriented
+                     work led me pursue software development and my passion for technology, design and people drives me to create meaningful and logical applications.</p>
+                     <p style={{ paddingTop: 50 }}>Technologies</p>
                 <div className="tech-container">
                 <ul>
                     <li>JavaScript (ES6+)</li>
