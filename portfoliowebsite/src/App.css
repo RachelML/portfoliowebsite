@@ -33,7 +33,7 @@
 }
 .nav-container {
   display: flex;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 
 }
 .about{
@@ -46,7 +46,7 @@
 }
 
 .contact-container{
-  min-height: 50vh;
+  min-height: 40vh;
   background-color: white;
   text-align: center;
 
@@ -83,7 +83,7 @@
 .about-container{
   width: 600px;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 10px;
   font-size: calc(8px + 2vmin);
 }
 
@@ -241,14 +241,27 @@ a:hover{
   border: solid 1px black;
 }
 
+.footer{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: mediumblue;
+  color: white
+}
+
 @media only screen and (max-width: 1000px) {
 
   *{
     /* background-color: lightpink; */
   }
 
+  .about-container{
+    font-size: 16px;
+    padding-right: 20px;
+  }
+
   .about{
-    padding-left: 10px;
+    padding-left: 20px;
   }
 
   .portfolio-title{
@@ -272,8 +285,9 @@ a:hover{
 
 @media only screen and (max-width: 500px) {
 
-  *{
-    /* background-color: lightskyblue; */
+ 
+  .app{
+    width: 100%
   }
 
   .portfolio-image {
@@ -292,7 +306,7 @@ a:hover{
   }
   .image{
     margin: auto;
-    margin-left: 20%;
+    margin-left: 10%;
     width: 280px;
     height: 280px;
   }

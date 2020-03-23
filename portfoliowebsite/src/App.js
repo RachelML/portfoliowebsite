@@ -13,14 +13,14 @@ import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Nav />
 
         <header className="App-header">
          <div className='bio'>
           <p>Hi, my name is<br></br> Rachel Long. <br></br>I'm a Full Stack Web Developer 
                based in Richmond, Va specializing 
-               In front end websites and applications.
+               in high-quality websites and applications.
           </p>
         </div>
       </header>
@@ -28,6 +28,7 @@ function App() {
      <About />
      <Portfolio />
      <Contact />
+     <div className="footer"> © Rachel Long 2020</div>
     </div>
   );
 }
