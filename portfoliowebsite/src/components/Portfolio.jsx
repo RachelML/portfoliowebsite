@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
                     <div>
                     <p className="portfolio-title">MedTrack</p>
 
-                     <p className="portfolio-description">A full stack CRUD web app for visulizing and tracking personal medication information with user authentication.</p>
+                     <p className="portfolio-description">A full stack CRUD web app for visualizing and tracking personal medication information with user authentication.</p>
                      <div className="portfolio-links">
                      <a href="https://github.com/RachelML/Medtrack"><GitHubIcon />
 </a>
