@@ -3,6 +3,7 @@ import logo from  '../images/i-dQS4s7r-L.jpg'
 
 
 export default class About extends Component {
+    
     render() {
         return (
             <div id="about" className="about">
