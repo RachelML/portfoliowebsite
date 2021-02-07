@@ -35,6 +35,7 @@ export default class Nav extends Component {
         return (
             <div>
                 <div className="nav-container">
+                    
                 {/* <div className="hero" onMouseMove={this._onMouseMove.bind(this)}>
         <p className="name">ABOUT</p>
         <h1 className="name">
