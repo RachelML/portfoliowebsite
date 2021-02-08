@@ -36,13 +36,11 @@ export default class Nav extends Component {
             <div>
                 <div className="nav-container">
                     
-                {/* <div className="hero" onMouseMove={this._onMouseMove.bind(this)}>
-        <p className="name">ABOUT</p>
+                 {/* <div className="hero" onMouseMove={this._onMouseMove.bind(this)}>
         <h1 className="name">
           RACHEL LONG        
         </h1>
-        <p className="name">WORK</p>
-      </div> */}
+      </div>  */}
                      <p className="nav-about">  <HashLink  style={{textDecoration: 'none'}} to="/#about">
                      ABOUT
                     </HashLink></p>
